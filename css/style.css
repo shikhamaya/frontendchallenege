@@ -10,53 +10,23 @@ body h1 {
   font-size: 1.4em;
   text-align: left;
   font-family: "Verdana", sans-serif;
-  margin: 20px
 }
 
 body h2{
   font-size: 1.3em;
   text-align: left;
   font-family: "Verdana", sans-serif;
-  margin: 10px 20px auto;
-}
-
-body h3{
-  font-size: 1.2em;
-  text-align: left;
-  font-family: "Verdana", sans-serif;
-  margin: 10px 20px auto;
-}
-
-body h4{
-  font-size: 100%;
-  text-align: left;
-  font-family: "Verdana", sans-serif;
-  margin: 10px 20px auto;
 }
 
 .container {
   margin: 10px auto;
+  padding: 10px auto;
   width: 100%;
 }
 
-.row1 {
-  float: left;
-  display: block;
-  width: 30%;
-}
-
-.row2 {
-  float: center;
-  display: block;
-  width: 30%;
-}
-
-.row3 {
-  float: right;
-  display: block;
-  width: 30%;
-}
-
-.row1, .row2, .row3 h3 {
+.title {
   display: inline-block;
+  width: 30%;
+  height: 15%;
+  margin: 1%;
 }

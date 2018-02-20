@@ -10,36 +10,32 @@
   <body>
     <section class="container">
       <h1>BusyBus</h1>
-      <div class= "direction eastbound">
+      <div class="navcontainer">
+        <ul class= "navlist">
+          <li> Line </li>
+          <li> Destination </li>
+          <li> Frequency </li>
+        </ul>
+      </div>
+      <div class="eastboundcontainer">
         <h2>Eastbound</h2>
-        <ul>
-          <li class= "title line">
-            <li>Line
-              <ul>
-                <li class= "values line">
-                  <li>60</li>
-                  <li>124</li>
-                </ul>
-        </ul>
-        <ul>
-          <li class= "title destination">
-            <li>Destination
-              <ul>
-                <li class= "values destination">
-                  <li>Randolph/Harbor Dr</li>
-                  <li>Navy Pier</li>
-                </ul>
-        </ul>
-        <ul>
-          <li class= "title frequency">
-            <li>Frequency
-              <ul>
-                <li class= "values frequency">
-                  <li>Every 20 minutes</li>
-                  <li>Every 10 minutes</li>
-                </ul>
-        </ul>
-      <div class= "direction northbound">
+          <ul class="values">
+            <li class= "eastboundvalues">
+              <li>60</li>
+              <li>124</li>
+            </ul>
+          <ul class="destination">
+            <li class= "eastbounddestination">
+              <li>Randolph/Harbor Dr</li>
+              <li>Navy Pier</li>
+          </ul>
+        <ul class= "frequency">
+          <li class= "eastboundfrequency">
+            <li>Every 20 minutes</li>
+            <li>Every 10 minutes</li>
+          </ul>
+      </div>
+      <div class= "northbound line">
         <h2>Northbound</h2>
         <ul>
           <li class= "title line">
@@ -49,15 +45,20 @@
                   <li>151</li>
                 </ul>
         </ul>
+      </div>
         <ul>
+        <div class= "northbound destination">
           <li class= "title destination">
             <li>Destination
               <ul>
                 <li class= "values destination">
                   <li>Devon/Clark</li>
                 </ul>
+            </div>
         </ul>
+      </div>
         <ul>
+        <div class= "northbound frequency">
           <li class= "title frequency">
             <li>Frequency
               <ul>

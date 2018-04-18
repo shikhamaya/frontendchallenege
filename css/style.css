@@ -28,7 +28,7 @@ body {
   padding-bottom: 10px;
 }
 
-.nav img[src="images/Status.png"] {
+.stat {
     padding-bottom: 5px;
 }
 
@@ -63,7 +63,7 @@ li {
 
 }
 
-.mapspace img[src="images/Map.png"] {
+.mapspace  {
   width: 375px;
 }
 

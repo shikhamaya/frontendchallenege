@@ -2,56 +2,73 @@
   box-sizing: border-box;
 }
 
+.css-selector {
+  font-family: 'Roboto', serif;
+}
+
 body {
-  font-family: "Helvetica Neue";
   color: white;
   padding: 10px;
-        }
+}
 
 .container {
   width: 375px;
   height: 667px;
-  padding: 5px 0px;
   position: absolute;
-  overflow: visible;
 }
 
 .row {
   width: 375px;
   border-bottom: 1px solid #ddd;
   padding: 10px 5px;
-  background-color: #307492;
-}
-
-.nav img[src="Status.png"] {
-    padding-bottom: 5px;
-}
-
-.nav img[src="Search.png"] {
-    padding-bottom: 10px;
-}
-
-.nav {
-  width: 375px;
-  border-bottom: 1px solid #275E76;
-  padding: 5px;
-  background-color: #275E76;
-  font-family: "Helvetica Neue", sans-serif;
-
-}
+  background-color: #172c4f;
 }
 
 .stat {
   padding-bottom: 10px;
 }
 
-.sear {
-  padding-top: 5px;
-  padding-left: 5px;
+.nav img[src="images/Status.png"] {
+    padding-bottom: 5px;
+}
+
+
+.searchbar {
+  background-color: #172c4f;
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  align-items: center;
+}
+
+.searchbar input[type=text] {
+      width: 280px;
+      font-size: 17px;
+      border-radius: 10px;
+      border: 1px #ddd solid;
+      padding: 5px 5px 5px 25px;
+      font-family: 'Roboto', serif;
+      margin: 0px 15px 10px 10px;
+}
+
+li {
+    float: left;
+}
+
+.nav {
+  width: 375px;
+  padding: 5px;
+  background-color: #172c4f;
+  font-family: "Roboto", sans-serif;
+
+}
+
+.mapspace img[src="images/Map.png"] {
+  width: 375px;
 }
 
 .row:hover {
-  background-color: #275E76;
+  background-color: #1f3a68;
 }
 
 .line {
@@ -75,10 +92,5 @@ body {
 .direction {
   font-size: 14px;
   padding: 5px 0px;
-  padding-left: 10px;
-}
-
-.destination {
-  font-size: 12px;
   padding-left: 10px;
 }

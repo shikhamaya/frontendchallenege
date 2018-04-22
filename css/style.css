@@ -17,13 +17,19 @@ body {
   position: absolute;
 }
 
+
+.bus-list {
+  width: 375px;
+  background-color: #172c4f;
+}
+
 .row {
   width: 375px;
   border-bottom: 1px solid #ddd;
   padding: 10px 5px;
   background-color: #172c4f;
+  list-style-type: none;
 }
-
 .stat {
   padding-bottom: 10px;
 }
@@ -39,6 +45,7 @@ body {
   margin: 0;
   overflow: hidden;
   align-items: center;
+  padding-bottom: 5px;
 }
 
 .searchbar input[type=text] {
@@ -46,7 +53,7 @@ body {
       font-size: 17px;
       border-radius: 10px;
       border: 1px #ddd solid;
-      padding: 5px 5px 0px 25px;
+      padding: 5px 5px 5px 25px;
       font-family: 'Roboto', serif;
       margin: 0px 15px 5px 10px;
 }
@@ -70,26 +77,74 @@ nav {
   background-color: #1f3a68;
 }
 
+.leftItems {
+  display: inline-block;
+  padding-left: 10px;
+}
+
+.rightItems {
+  display: inline-block;
+  padding-right: 10px;
+}
+
 .line {
   font-size: 24px;
-  float: right;
-  padding-right: 10px;
+  padding-bottom: 4px;
+}
+
+.every {
+  font-size: 12px;
+  padding-bottom: 4px;
+}
+.minutes {
+  font-size: 12px;
 }
 
 .frequency {
   font-size: 24px;
-  margin-left: auto;
-  padding-left: 10px;
-}
-
-.minutes {
-  font-size: 14px;
-  padding: 5px 10px;
-  float: right;
 }
 
 .direction {
   font-size: 14px;
-  padding: 5px 0px;
-  padding-left: 10px;
+  max-width: 60%;
+}
+
+.frequency, .minutes {
+  display: inline;
+}
+
+.one .leftItems {
+  width: 296px;
+}
+
+.two .leftItems {
+  width: 296px;
+}
+
+.three .leftItems {
+  width: 296px;
+}
+
+.four .leftItems {
+  width: 296px;
+}
+
+.five .leftItems {
+  width: 296px;
+}
+
+.six .leftItems {
+  width: 308px;
+}
+
+.seven .leftItems {
+  width: 267px;
+}
+
+.eight .leftItems {
+  width: 267px;
+}
+
+.nine .leftItems {
+  width: 280px;
 }
